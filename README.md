@@ -23,18 +23,6 @@ The dataset contains histopathological images of breast tumors at different magn
 - Benign: adenosis, fibroadenoma, phyllodes tumor, tubular adenoma
 - Malignant: ductal carcinoma, lobular carcinoma, mucinous carcinoma, papillary carcinoma
 
-### Download
-
-1. Create a Kaggle account and generate an API token from `Settings > API > Create New Token`.
-2. Run:
-
-```bash
-pip install kaggle
-mkdir -p ~/.kaggle && cp kaggle.json ~/.kaggle/
-chmod 600 ~/.kaggle/kaggle.json
-kaggle datasets download -d ambarish/breakhis
-unzip breakhis.zip -d data/
-```
 
 ---
 
